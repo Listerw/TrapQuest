@@ -243,9 +243,9 @@ REQUIRES COMMENTING
 
 +!]
 This is the kneeing imprinting rule:
-	if imprint-target is stockings or (imprint-target is suspenders and there are worn stockings) and the magic-modifier of imprint-target is not 0:
-		say "[ImprintStartFlav]knee [if the magic-modifier of imprint-target < 0]weakening[otherwise]empowering[end if] effect [run paragraph on]";
-		increase permanent-knee-bonus by the magic-modifier of imprint-target.
+	if imprint-target is stockings or (imprint-target is suspenders and there are worn stockings) and the knee-modifier of imprint-target is not 0:
+		say "[ImprintStartFlav]knee [if the knee-modifier of imprint-target < 0]weakening[otherwise]empowering[end if] effect [run paragraph on]";
+		increase permanent-knee-bonus by the knee-modifier of imprint-target.
 The kneeing imprinting rule is listed in the imprinting rules.
 
 [!<TheKickingImprintingRule>+
