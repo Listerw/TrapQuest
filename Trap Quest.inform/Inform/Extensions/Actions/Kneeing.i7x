@@ -11,6 +11,9 @@ To decide which number is the knee damage of (P - a person):
 	if there are worn stockings:
 		let S be a random worn stockings;
 		increase A by the knee-modifier of S;
+	if there are worn suspenders:
+		let S be a random worn suspenders;
+		increase A by the knee-modifier of S;
 	increase A by permanent-knee-bonus;
 	if the weight of the player < 1, decrease A by 2;
 	if there is a worn demon horns and the total-souls of the player > 9, increase A by 3;
